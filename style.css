@@ -63,3 +63,7 @@ footer{
  margin-top: 30px;
  padding: 35px;
 }
+
+footer > p{
+ font-size: 18px;
+}
