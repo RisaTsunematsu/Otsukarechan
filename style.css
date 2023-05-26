@@ -56,6 +56,16 @@ header{
  color: red;
 }
 
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+:root {
+  --swiper-navigation-color: #ffffff;
+  --swiper-pagination-color: #ffffff;
+}
+
 footer{
  color: #FAFAFA;
  width: 100%;
