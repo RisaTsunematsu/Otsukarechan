@@ -92,19 +92,19 @@ footer > p{
 /* タブレット横置きサイズ（1024px）以下の際に適用される設定 */
 /* タブレット横置きサイズ（1024px）以下の際に適用される設定 */
 @media screen and (max-width:1024px) {
-  img{
+  img4{
    width: 100%;
   }
 }
 /* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
 @media screen and (max-width:768px) {
-  img{
+  img4{
    max-width: 768px;
   }
 }
 /* スマートフォンサイズ（425px）以下の際に適用される設定 */
 @media screen and (max-width:425px) {
- img{
+ img4{
    max-width: 425px;
   }
 }
