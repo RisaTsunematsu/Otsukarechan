@@ -92,20 +92,24 @@ footer > p{
 /* タブレット横置きサイズ（1024px）以下の際に適用される設定 */
 /* タブレット横置きサイズ（1024px）以下の際に適用される設定 */
 @media screen and (max-width:1024px) {
-  img4{
+  img{
    width: 100%;
   }
 }
-/* タブレット縦置きサイズ（768px）以下の際に適用される設定 */
-@media screen and (max-width:768px) {
-  img4{
-   max-width: 768px;
-  }
-}
+
 /* スマートフォンサイズ（425px）以下の際に適用される設定 */
 @media screen and (max-width:425px) {
- img4{
-   max-width: 425px;
-  }
+ #mv > h1{
+  text-align: center;
+  font-size: 30px;
+ }
+ 
+ .swiper{
+  max-width: 425px;
+ 
+ }
+ img{
+  width: 100%;
+ }
 }
 /*menubarレスポンシブ
