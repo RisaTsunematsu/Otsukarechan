@@ -10,6 +10,16 @@ header{
  background-color: #b22222;
 }
 
+.wrap{
+  position: relative;
+  background: url(img/izakaya.jpeg);
+}
+
+.bg{
+  height: 100%;
+  background: rgba(255,255,255,0.5);
+}
+
 .container  {
  width: 1024px;
  height: 70px;
@@ -46,7 +56,7 @@ header{
  text-align: center;
  margin-top: 30px;
  font-size: 50px;
- color: red;
+ color: #b22222;
 }
 
 #mv > p{
