@@ -72,8 +72,14 @@ header{
   z-index: 9;
 }
 #sp-menu li {
+  font-size: 30px;
+  margin-top: 30px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+}
+
+#sp-menu h2{
+  font-size: 40px;
 }
 
 #sp-menu p{
