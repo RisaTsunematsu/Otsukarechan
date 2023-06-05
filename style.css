@@ -47,7 +47,7 @@ header{
 .menu-trigger.active span:nth-child(1) {
   -webkit-transform: translateY(20px) rotate(-45deg);
   transform: translateY(20px) rotate(-45deg);
-  background-color: #fff;
+  background-color: #000;
 }
 .menu-trigger.active span:nth-child(2) {
   opacity: 0;
@@ -55,7 +55,7 @@ header{
 .menu-trigger.active span:nth-child(3) {
   -webkit-transform: translateY(-20px) rotate(45deg);
   transform: translateY(-20px) rotate(45deg);
-  background-color: #fff;
+  background-color: #000;
 }
 /* ------------------------ */
 /* ------ spメニュー ------ */
@@ -64,8 +64,8 @@ header{
   position: fixed;
   top: 0;
   left: 0;
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000;
   width: 100%;
   min-height: 100%;
   display: none;
@@ -74,6 +74,10 @@ header{
 #sp-menu li {
   text-align: center;
   margin-bottom: 30px;
+}
+
+#sp-menu p{
+text-align: center;
 }
 
 .wrap{
