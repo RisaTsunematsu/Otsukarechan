@@ -84,6 +84,7 @@ header{
 
 #sp-menu h2{
   font-size: 40px;
+  text-align: center;
 }
 
 #sp-menu p{
@@ -150,6 +151,7 @@ text-align: center;
 .swiper {
   width: 600px;
   height: 350px;
+  
 }
 
 :root {
@@ -209,9 +211,11 @@ footer > p{
  .swiper{
   max-width: 400px;
   max-height: 250px;
+  text-align:center;
  }
  img{
-  width: 100%;
+  max-width: 100%;
+  height: auto;
  }
 
 .responsive_btn {
