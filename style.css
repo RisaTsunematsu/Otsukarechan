@@ -10,6 +10,8 @@ header{
  background-color: #b22222;
 }
 
+
+
 #hm-icon {
   position: fixed;
   right: 20px;
@@ -141,6 +143,11 @@ text-align: center;
  color: #b22222;
 }
 
+#mv h2{
+ text-align: center;
+ color: #b22222;
+}
+
 #mv > p{
  text-align: center;
  margin-top: 10px;
@@ -230,4 +237,5 @@ footer > p{
   position: relative;
   z-index: 10;
 }
+
 }
